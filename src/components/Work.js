@@ -25,22 +25,26 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-5">
-                Here you can see some of my projects using different technologies like html, css,tailwind css,
+                Here you can see some of my projects using different technologies like html, css, tailwind css,
                 javascript, typescript, bootstrap, react, react-bootstrap, react-router, react-redux, java, springboot
                 and many more..
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <a href="https://github.com/luqi2000">
+                <button className="btn btn-sm">View all projects</button>
+              </a>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img className="group-hover:scale-125 transition-all duration-500" src={img1} alt="" />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
+            <a href="https://github.com/luqi2000/react-d10-weather-app">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img className="group-hover:scale-125 transition-all duration-500" src={img1} alt="" />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient"> UI/UX Design</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Weather app</span>
+                </div>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">ProjectTitle</span>
-              </div>
-            </div>
+            </a>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.2)}
@@ -48,26 +52,30 @@ const Work = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-10">
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img className="group-hover:scale-125 transition-all duration-500" src={img2} alt="" />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
+            <a href="https://github.com/luqi2000/Capstone-Project-FrontEnd">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img className="group-hover:scale-125 transition-all duration-500" src={img2} alt="" />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient"> UI/UX Design</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Marketplace</span>
+                </div>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">ProjectTitle</span>
+            </a>
+            <a href="https://github.com/luqi2000/d5-react-netflix">
+              <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <img className="group-hover:scale-125 transition-all duration-500" src={img3} alt="" />
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient"> UI/UX Design</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Netflix</span>
+                </div>
               </div>
-            </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              <img className="group-hover:scale-125 transition-all duration-500" src={img3} alt="" />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Design</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">ProjectTitle</span>
-              </div>
-            </div>
+            </a>
           </motion.div>
         </div>
       </div>

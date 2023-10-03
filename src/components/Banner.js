@@ -55,9 +55,6 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My portfolio
-              </a>
             </motion.div>
             <motion.div
               variants={fadeIn("down", 0.7)}
@@ -65,16 +62,16 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://github.com/luqi2000">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/luqman-mohammad-full-stack-developer/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/luqman.mohammad.1/">
                 <FaFacebook />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/luqman_mk7/">
                 <FaInstagram />
               </a>
             </motion.div>
@@ -84,7 +81,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             className="max-w-[320px] hidden lg:flex flex-1">
-            <img src={Image} alt="photo profile" />
+            <img src={Image} alt="profile" />
           </motion.div>
         </div>
       </div>

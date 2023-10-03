@@ -7,20 +7,17 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "UI/UX design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi porro vero molestias possimus sunt sed!",
+    description: "",
     link: "learn more"
   },
   {
     name: "Development",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi porro vero molestias possimus sunt sed!",
+    description: "",
     link: "learn more"
   },
   {
     name: "Product branding",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi porro vero molestias possimus sunt sed!",
+    description: "",
     link: "learn more"
   }
 ];

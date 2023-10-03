@@ -24,9 +24,10 @@ const Work = () => {
                 My latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-16">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi quis, maiores esse iste architecto
-                ullam placeat laboriosam odit
+              <p className="max-w-sm mb-5">
+                Here you can see some of my projects using different technologies like html, css,tailwind css,
+                javascript, typescript, bootstrap, react, react-bootstrap, react-router, react-redux, java, springboot
+                and many more..
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>

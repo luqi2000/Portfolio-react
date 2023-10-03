@@ -8,6 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -54,7 +55,9 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <button className="btn btn-lg">Contact me</button>
+              <Link to="contact" className="flex align items-center btn btn-lg">
+                Contact me
+              </Link>
             </motion.div>
             <motion.div
               variants={fadeIn("down", 0.7)}

@@ -37,7 +37,6 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance full stack developer with over 1 year of experience
             </h3>
-            <button className="btn btn-sm">See my work</button>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
